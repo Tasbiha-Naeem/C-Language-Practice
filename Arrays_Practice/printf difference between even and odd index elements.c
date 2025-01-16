@@ -13,7 +13,7 @@ int main(){
 	evensum+=arr[i];
 	}
 	  }
-	 difference=oddsum-evensum;
-	 printf("The difference between odd and even index elements is %d.",difference);
-	 return 0;
+	difference=oddsum-evensum;
+	printf("The difference between odd and even index elements is %d.",difference);
+	return 0;
 }
