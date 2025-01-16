@@ -1,4 +1,4 @@
-//printf the maximum element of array.
+//print the maximum element of array.
 #include<stdio.h>
 #include<climits>
 int main(){
