@@ -31,7 +31,7 @@ int main(){
     printf("The first co-ordinate is (%d, %d)\n",l1,r1);
     printf("The second co-ordinate is (%d, %d)\n",l2,r2);
     for(int i=l1;i<=l2;i++) {
-        for (int j=r1; j<=r2;j++) {
+        for (int j=r1;j<=r2;j++) {
             sum+=a[i][j];
         }
     }
