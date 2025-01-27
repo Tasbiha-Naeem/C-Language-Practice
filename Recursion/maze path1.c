@@ -1,6 +1,5 @@
 #include<stdio.h>
 int maze(int cr,int cc,int er,int ec){
-	
 		int rightways=0;
 		int downways=0;
 		if(cr==er && cc==ec) return 1;
