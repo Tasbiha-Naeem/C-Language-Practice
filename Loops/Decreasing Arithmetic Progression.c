@@ -1,12 +1,10 @@
+// Decreasing Arithmetic progression.
 #include<stdio.h>
 int main(){
-	int n;
-	int a=1;
-	printf("Enter the number:\n");
-	scanf("%d",&n);
-	for(int i=1;i<=n;i++){
+	int a=100;
+	for(int i=1;a>0;i++){
 		printf("%d\n",a);
-		a=a+2;
+		a=a-3;
 	}
 	return 0;
 }
