@@ -13,6 +13,9 @@ int main(){
 	if(a==0){
 		printf("The number is prime.\n");
 	}
+	else if(number==1){
+		printf("The number is neither prime nor composite.\n");
+	}
 	else{
 		printf("The number is composite.\n");
 	}
