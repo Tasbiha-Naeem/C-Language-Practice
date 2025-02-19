@@ -10,11 +10,11 @@ int main(){
 			break;
 		}
 	}
-	if(a==0){
-		printf("The number is prime.\n");
+	if(number==1){
+		printf("1 is neither prime nor composite.\n");
 	}
-	else if(number==1){
-		printf("The number is neither prime nor composite.\n");
+	else if(a==0){
+		printf("The number is prime.\n");
 	}
 	else{
 		printf("The number is composite.\n");
