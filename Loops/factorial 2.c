@@ -7,8 +7,7 @@ int main(){
 	int product=1;
 	for(int i=1;i<=number;i++){
 		product=product*i;
+		printf("The factorial of %d is %d.\n",i,product);
 	}
-	printf("The factorial of %d is %d",number,product);
-	
 	return 0;
 }
