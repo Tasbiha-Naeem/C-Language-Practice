@@ -6,7 +6,6 @@ int main(){
 	scanf("%d",&n);
 	int noft=((2*n-1)/2)+1;
 	int m=((2*n-1)/2)+1;
-	int z=((2*n-1)/2)+1;
 	for(int i=1;i<=2*n-1;i++){
 		if(i>=m){
 			printf("%d",m);
